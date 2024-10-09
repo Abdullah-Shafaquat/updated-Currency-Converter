@@ -1,0 +1,95 @@
+body {
+    font-family: 'Lato', sans-serif;
+    background-color: #b2bad4; /* Light blue background */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    text-align: center;
+    background-color: #3e455e; /* Deep purple-blue background for the container */
+    padding: 45px 35px;
+    border-radius: 20px;
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.15);
+    max-width: 450px;
+    height: 75vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+h1 {
+    font-size: 2.4rem;
+    margin-bottom: 25px;
+    color: #ffffff; 
+    text-shadow: 0px 0px 15px rgb(255, 255, 255);
+   
+}
+
+.converter {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.input-section, .output-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+select, input {
+    padding: 14px;
+    font-size: 16px;
+    border: 2px solid #6a72ac; /* Purple border */
+    border-radius: 10px;
+    margin-bottom: 12px;
+    width: 100%;
+    max-width: 320px;
+    transition: border-color 0.3s ease;
+}
+
+select:focus, input:focus {
+    border-color: #2f4bc1; /* Bright blue focus border */
+    outline: none;
+}
+
+img {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 8px;
+    border: 2px solid #c0c3f9; /* Soft purple border */
+    border-radius: 10px;
+}
+
+
+
+button {
+    padding: 14px 30px;
+    font-size: 17px;
+    background-color: #3f51b5; /* Rich blue button */
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #eaeaeb; /* Lighter blue on hover */
+    color: rgb(0, 0, 0);
+    border: 2px solid black;
+}
+
+#result {
+    font-size: 1.9rem;
+    font-weight: bold;
+    color: #ffffff; /* Darker purple for the result text */
+    margin-top: 20px;
+}
